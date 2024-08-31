@@ -23,6 +23,12 @@
             "descripcion": "Formas de minimizar riesgos en un creciente mundo de dispositivos IoT.",
             "tema": "ciberseguridad",
             "link": "articulos/seguridad_disp_iot.html"
+        },
+        {
+            "titulo": "Seguridad en Sistemas Windows",
+            "descripcion": "La seguridad en Windows es esencial para proteger tus datos y garantizar que tu sistema funcione sin problemas.",
+            "tema": "ciberseguridad",
+            "link": "articulos/configuracion_seguridad_win.html"
         }
     ]
 }

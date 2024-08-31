@@ -1,0 +1,28 @@
+{
+    "articulos": [
+        {
+            "titulo": "Configuración Básica de Seguridad para Equipos con Linux",
+            "descripcion": "Una guía paso a paso para asegurar tu equipo Linux, cubriendo desde la configuración de usuarios hasta la implementación de cortafuegos.",
+            "tema": "linux",
+            "link": "articulos/configuracion_seguridad_linux.html"
+        },
+        {
+            "titulo": "Configuración Avanzada de Redes",
+            "descripcion": "Exploración de técnicas avanzadas para asegurar redes empresariales.",
+            "tema": "redes",
+            "link": "articulos/configuracion_avanzada_redes.html"
+        },
+        {
+            "titulo": "Técnicas de Ciberseguridad Moderna",
+            "descripcion": "Un análisis de las técnicas más actuales para protegerse contra amenazas digitales.",
+            "tema": "ciberseguridad",
+            "link": "articulos/tecnicas_ciberseguridad_moderna.html"
+        },
+        {
+            "titulo": "Seguridad en Dispositivos IoT",
+            "descripcion": "Formas de minimizar riesgos en un creciente mundo de dispositivos IoT.",
+            "tema": "ciberseguridad",
+            "link": "articulos/seguridad_disp_iot.html"
+        }
+    ]
+}

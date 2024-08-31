@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artículos - 12Bit</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            background-color: #0b0e11;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #141a21;
+            color: #00aaff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: #00aaff 3px solid;
+        }
+        main {
+            padding: 20px;
+            background: #141a21;
+            margin-top: 20px;
+        }
+        .search-bar {
+            margin-bottom: 20px;
+        }
+        .search-bar input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #00aaff;
+            background-color: #141a21;
+            color: #ffffff;
+            border-radius: 5px;
+        }
+        .tema {
+            margin-bottom: 30px;
+        }
+        .tema h2 {
+            color: #00aaff;
+            border-bottom: 2px solid #00aaff;
+            padding-bottom: 5px;
+        }
+        .article-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .article-list li {
+            background: #0b0e11;
+            margin: 10px 0;
+            padding: 15px;
+            border: #00aaff 1px solid;
+            border-radius: 5px;
+        }
+        .article-list li h3 {
+            margin: 0 0 10px 0;
+            color: #00aaff;
+        }
+        footer {
+            background: #141a21;
+            color: #00aaff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            border-top: #00aaff 3px solid;
+        }
+        .no-results {
+            color: #ff5555;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Artículos</h1>
+    </header>
+
+    <main class="container">
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Buscar artículos..." onkeyup="searchArticles()">
+        </div>
+
+        <div id="articulos-container">
+            <!-- Los artículos se cargarán aquí agrupados por temas -->
+        </div>
+
+        <p id="no-results" class="no-results" style="display: none;">No se encontraron artículos.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - 12Bit</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

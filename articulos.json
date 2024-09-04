@@ -29,6 +29,12 @@
             "descripcion": "La seguridad en Windows es esencial para proteger tus datos y garantizar que tu sistema funcione sin problemas.",
             "tema": "ciberseguridad",
             "link": "articulos/configuracion_seguridad_win.html"
+        },
+        {
+            "titulo": "La triada CIA",
+            "descripcion": "La triada CIA, un pilar fundamental dentro de la ciberseguridad",
+            "tema": "ciberseguridad",
+            "link": "articulos/triada_cia.html"
         }
     ]
 }

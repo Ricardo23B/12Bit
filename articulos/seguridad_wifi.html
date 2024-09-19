@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguridad en Redes Wi-Fi</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            background-color: #0b0e11;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #141a21;
+            color: #00aaff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: #00aaff 3px solid;
+        }
+        main {
+            padding: 20px;
+            background: #141a21;
+            margin-top: 20px;
+        }
+        footer {
+            background: #141a21;
+            color: #00aaff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            border-top: #00aaff 3px solid;
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            background: #00aaff;
+            color: #0b0e11;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin: 5px;
+            display: inline-block;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: #0088cc;
+        }
+        h2 {
+            color: #00aaff;
+            margin-top: 30px;
+            border-bottom: #00aaff 2px solid;
+            padding-bottom: 5px;
+        }
+        pre {
+            background-color: #1c252c;
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 14px;
+            overflow-x: auto;
+        }
+        code {
+            color: #00ff99;
+            font-family: Consolas, "Courier New", Courier, monospace;
+        }
+        ul {
+            margin-left: 20px;
+            list-style-type: square;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Seguridad en Redes Wi-Fi</h1>
+    </header>
+
+    <main class="container">
+        <p>Hoy en día, nuestra conexión Wi-Fi es prácticamente el centro de nuestras vidas digitales. Desde trabajar en casa hasta disfrutar de contenido multimedia y realizar compras en línea, dependemos de nuestra red Wi-Fi para mantenernos conectados. Pero, ¿alguna vez te has preguntado si tu red es realmente segura? En este artículo, voy a guiarte a través de algunos pasos esenciales para asegurar tu red Wi-Fi y mantener a los intrusos fuera.</p>
+
+        <h2>1. Cambiar las Credenciales por Defecto del Router</h2>
+        <p>Lo primero que debes hacer para proteger tu red es cambiar las credenciales por defecto de tu router. Cuando instalas un router nuevo, viene con un nombre de usuario y contraseña predefinidos, que muchas veces son los mismos para todos los dispositivos de esa marca o modelo. Esto facilita que alguien que conozca esta información pueda acceder a tu red.</p>
+        <ul>
+            <li>Cómo hacerlo: Ingresa a la configuración de tu router a través de un navegador web. Generalmente, solo debes ingresar la dirección IP del router (como <code>192.168.1.1</code> o <code>192.168.0.1</code>) y cambiar tanto el nombre de usuario como la contraseña predeterminados.</li>
+        </ul>
+
+        <h2>2. Utiliza un Cifrado Seguro (WPA3 o WPA2)</h2>
+        <p>El cifrado es la clave para proteger tu red de accesos no autorizados. Asegúrate de que tu router esté utilizando el protocolo de cifrado más seguro disponible. Actualmente, WPA3 es el estándar más robusto, pero si tu dispositivo no lo soporta, WPA2 sigue siendo una opción confiable.</p>
+        <ul>
+            <li><strong>Por qué es importante:</strong> Evita usar protocolos más antiguos como WEP o WPA, ya que tienen vulnerabilidades conocidas que los hacen inseguros y fáciles de vulnerar.</li>
+        </ul>
+
+        <h2>3. Cambia el Nombre de la Red (SSID)</h2>
+        <p>El nombre de tu red Wi-Fi, conocido como SSID, no debería revelar información sobre tu router, como la marca o modelo, ya que esto puede dar pistas a un atacante sobre qué vulnerabilidades puede intentar explotar. Cambiar el SSID por uno personalizado y no identificable es un paso sencillo pero efectivo.</p>
+        <ul>
+            <li><strong>Consejo:</strong> Evita nombres que incluyan datos personales o información obvia que los hackers puedan usar a su favor.</li>
+        </ul>
+
+        <h2>4. Desactiva el WPS</h2>
+        <p>El WPS (Wi-Fi Protected Setup) es una función que permite conectar dispositivos a tu red de manera rápida, pero esta misma facilidad viene con un riesgo de seguridad considerable. El WPS es conocido por tener vulnerabilidades que los atacantes pueden aprovechar para obtener acceso a tu red.</p>
+        <ul>
+            <li><strong>Qué hacer:</strong> Ve a la interfaz de configuración de tu router y desactiva el WPS (suele estar en el apartado de seguridad wireless) para evitar posibles ataques.</li>
+        </ul>
+
+        <h2>5. Configura una Red para Invitados</h2>
+        <p>Si tienes amigos, familiares o incluso clientes que se conectan a tu red con regularidad, es una buena práctica crear una red Wi-Fi para invitados. Esto aísla tu red principal de posibles dispositivos no seguros que puedan estar infectados o comprometidos.</p>
+        <ul>
+            <li><strong>Beneficio:</strong> Mantener a los invitados en una red separada asegura que cualquier problema en sus dispositivos no afecte tus equipos o información personal.</li>
+        </ul>
+
+        <h2>6. Desactiva la Difusión del SSID</h2>
+        <p>Ocultar tu SSID no es una solución de seguridad por sí misma, pero puede hacer que tu red sea menos visible para usuarios casuales. Los dispositivos que ya se han conectado a la red seguirán funcionando normalmente, pero no aparecerá en la lista de redes disponibles para nuevos dispositivos.</p>
+        <ul>
+            <li><strong>Nota:</strong> Aunque esto no te protegerá contra ataques dirigidos, puede ser un paso adicional para reducir la exposición de tu red a usuarios no deseados.</li>
+        </ul>
+
+        <h2>7. Mantén el Firmware del Router Actualizado</h2>
+        <p>El firmware de tu router es el software que lo hace funcionar, y los fabricantes lanzan actualizaciones de seguridad regularmente. Mantener el firmware actualizado es esencial para corregir vulnerabilidades conocidas y asegurar que tu router esté protegido contra las últimas amenazas.</p>
+        <ul>
+            <li><strong>Cómo hacerlo:</strong> Ve a la página web del fabricante de tu router y verifica si hay actualizaciones disponibles. Algunos routers modernos incluso permiten configurar actualizaciones automáticas.</li>
+        </ul>
+
+        <h2>8. Monitorea los Dispositivos Conectados</h2>
+        <p>Finalmente, es importante monitorear qué dispositivos están conectados a tu red. Esto te ayudará a detectar cualquier dispositivo no autorizado que pueda estar aprovechándose de tu conexión.</p>
+        <ul>
+            <li><strong>Cómo hacerlo:</strong> Accede a la configuración de tu router y revisa la lista de dispositivos conectados. Si ves algún dispositivo que no reconoces, desconéctalo inmediatamente y cambia tu contraseña.</li>
+        </ul>
+
+        <h2>Conclusión: Mantén tu Red Wi-Fi Segura</h2>
+        <p>Asegurar tu red Wi-Fi es un paso esencial para proteger tu privacidad y evitar que intrusos accedan a tu información. Si bien puede parecer complicado, siguiendo estos pasos puedes mejorar significativamente la seguridad de tu red. Al final del día, se trata de crear una barrera sólida para proteger tanto tu conexión como tus datos.</p>
+    </main>
+
+    <nav class="container">
+        <a href="./articulos.html">Ver más artículos</a>
+    </nav>
+
+    <footer>
+        <p>&copy; 2024 - 12Bit</p>
+    </footer>
+
+</body>
+</html>

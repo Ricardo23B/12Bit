@@ -35,6 +35,12 @@
             "descripcion": "La triada CIA, un pilar fundamental dentro de la ciberseguridad",
             "tema": "ciberseguridad",
             "link": "articulos/triada_cia.html"
-        }
+        },
+        {
+            "titulo": "Seguridad en Redes Wifi",
+            "descripcion": "La seguridad en las redes inalámbricas es un tema del que se habla poco, por eso quiero compartir algunas consideraciones clave para mejorar su protección.",
+            "tema": "redes",
+            "link": "articulos/seguridad_wifi.html"
+        },
     ]
 }
